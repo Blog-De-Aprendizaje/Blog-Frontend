@@ -254,3 +254,19 @@ button.regresar {
   font-size: 14px;
   color: #777;
 }
+
+/* CSS para las imágenes en los posts */
+.post-image {
+  width: 100%;  /* Ajusta el tamaño según el contenedor */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px; /* Agrega bordes redondeados si lo deseas */
+}
+
+.post-image-thumbnail {
+  width: 100px; /* Ajusta el tamaño para las miniaturas */
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
